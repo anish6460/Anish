@@ -8,8 +8,8 @@ import re
 from threading import Lock
 
 # Bot configuration
-bot = telebot.TeleBot('7613305603:AAEN2uZOItjD2a5xEbEgC9baaZcXZ6j92Y0')
-admin_id = {"6525686565"}
+bot = telebot.TeleBot('7619059614:AAFkuLWkeVa6Je3BvWH6vryyUo--QH_TxYo')
+admin_id = {"8056407028"}
 USER_FILE = "users.txt"
 USER_TIME_LIMITS = "user_limits.txt"
 LOG_FILE = "attack_logs.txt"
@@ -105,7 +105,7 @@ def get_active_attack_info():
 @bot.message_handler(commands=['start'])
 def start_command(message):
     caption = """
-🚀 *Welcome to MAUT DDoS Bot* 🚀
+🚀 *Welcome to Anish DDoS Bot* 🚀
 
 *Available Commands:*
 /maut <ip> <port> <time> - Start attack
